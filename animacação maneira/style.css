@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  font-family: "Heebo", sans-serif;
+  color: rgb(45, 45, 45);
+}
+.landing{
+  min-height: 100vh;
+  background: url(mar-sunset.jpg);
+  background-size: cover;
+  background-position: center 65%;
+  padding: 0rem 5rem;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+}
+.nav-links li{
+  cursor: pointer;
+  padding: 1rem 0rem;
+  font-size: 1.25rem;
+}
+#logo{
+  font-family: "Lobster";
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.big-txt{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-40%);
+  font-size: 4rem;
+  font-family: "Lobster";
+}
+.intro{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro-txt{
+  color: rgb(227,242,2550);
+  font-size: 2.5rem;
+}
+.slider{
+  background-color: rgb(216, 171, 139);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+.hide{
+  background-color: black;
+  overflow: hidden;
+}
+.hide span{
+  display: inline-block;
+  transform: translateY(100%);
+}
